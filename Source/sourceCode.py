@@ -1,6 +1,7 @@
 #This program will convert interger values to their binary counter part
 import time, sys
-def main():
+con = True
+while con == True:
     x = input('Input a interger value to convert to binary. ')
     print('Now converting')
     print('')
@@ -8,12 +9,10 @@ def main():
     time.sleep(3)
     y = raw_input('Would you like to input another number? [Y/N]').lower()
     if y == "y":
-        main()
+     con = con   
     else:
-        sys.exit()
+        con = False
 
 
-
-main()
     
 
