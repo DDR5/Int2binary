@@ -2,7 +2,7 @@ Int2binary
 ==========
 
 Converts intergers to their binary counterparts
-
+####Keep in mind the binary updates much slower then the sourcecode will
 Changelog:
 V.01 -  Initial release
-V.01.1 -  Added a while loop to speed up the program. Took away the main() function
+V.01.1 -  Speeded up the program by removing useless code
